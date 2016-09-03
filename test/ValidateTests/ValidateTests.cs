@@ -76,8 +76,7 @@ namespace Validate.Tests
         [TestMethod]
         public void NotEmptyCollection()
         {
-            var ints = new List<int>();
-            ints.Add(1);
+            var ints = new List<int> {1};
             Validate.NotEmpty(ints);
         }
 
@@ -144,8 +143,7 @@ namespace Validate.Tests
         [TestMethod]
         public void NoNullElementsCollection()
         {
-            var strings = new List<string>();
-            strings.Add("1");
+            var strings = new List<string> {"1"};
             Validate.NoNullElements(strings);
         }
 
@@ -191,8 +189,7 @@ namespace Validate.Tests
         [TestMethod]
         public void ValidIndexCollection()
         {
-            var strings = new List<string>();
-            strings.Add("1");
+            var strings = new List<string> {"1"};
             Validate.ValidIndex(strings, 0);
         }
 
