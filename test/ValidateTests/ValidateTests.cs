@@ -1,9 +1,9 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Validate.Tests
-{
+namespace Bromano.Validation.Tests
+{ 
     [TestClass]
     public class ValidateTests
     {

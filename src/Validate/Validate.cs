@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Validate
+namespace Bromano.Validation
 {
     public class Validate
     {

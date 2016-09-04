@@ -7,7 +7,7 @@
     <ProjectGuid>{FA54C4D4-4D48-499D-9706-ED3E5982EF7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Validate</RootNamespace>
+    <RootNamespace>Bromano.Validation</RootNamespace>
     <AssemblyName>Validate</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
